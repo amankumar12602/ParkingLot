@@ -34,7 +34,7 @@ public class Main {
 			FileParser.parseInputFile(args[0]);
 			break;
 		default:
-			String filePath = "src/resources/input.txt";
+			String filePath = "resources/input.txt";
 			FileParser.parseInputFile(filePath);
 		}
 
