@@ -29,17 +29,17 @@ public class ParkACarTest {
 		
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(new String[] { "create_parking_lot", "6" });
-		lot.doAction(param);
+		lot.doParking(param);
 	
 		param.setValue(new String[] { "park", "KA-01-HH-1234", "White" });
-		service.doAction(param);
+		service.doParking(param);
 	}
 
 	@Test
 	public void tesPakingFull() {
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(new String[] { "park", "KA-01-HH-9999", "Blue" });
-		service.doAction(param);
+		service.doParking(param);
 	}
 
 }

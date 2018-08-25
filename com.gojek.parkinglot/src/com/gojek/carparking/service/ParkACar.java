@@ -11,7 +11,7 @@ import com.gojek.carparking.util.SearchMapUpdateUtil;
 public class ParkACar implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) {
+	public void doParking(ParkingParameter param) {
 		Integer firstAvaiableSlot = getFirstEmptySlot();
 
 		if (firstAvaiableSlot == null) {

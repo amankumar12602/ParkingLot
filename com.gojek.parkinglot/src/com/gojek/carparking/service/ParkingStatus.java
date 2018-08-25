@@ -10,7 +10,7 @@ import com.gojek.carparking.storage.ParkingSpace;
 public class ParkingStatus implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) {
+	public void doParking(ParkingParameter param) {
 		if (ParkingSearchMap.getSlotRegistrationNoMap().isEmpty()) {
 			System.out.println("Parking lot is empty");
 			return;

@@ -4,6 +4,6 @@ import com.gojek.carparking.config.ParkingParameter;
 
 public interface IParkingService {
 
-	public void doAction(ParkingParameter param);
+	public void doParking(ParkingParameter param);
 
 }

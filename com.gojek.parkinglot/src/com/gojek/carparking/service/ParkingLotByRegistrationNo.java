@@ -7,7 +7,7 @@ import com.gojek.carparking.storage.ParkingSearchMap;
 public class ParkingLotByRegistrationNo implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) {
+	public void doParking(ParkingParameter param) {
 
 		String registrationNo = param.getValue()[1];
 		Integer result = ParkingSearchMap.getSlotRegistrationNoMap().get(registrationNo);

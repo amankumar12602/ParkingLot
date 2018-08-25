@@ -11,7 +11,7 @@ import com.gojek.carparking.util.SearchMapUpdateUtil;
 public class LeaveParking implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) {
+	public void doParking(ParkingParameter param) {
 
 		try {
 			Integer slot = Integer.parseInt(param.getValue()[1]);

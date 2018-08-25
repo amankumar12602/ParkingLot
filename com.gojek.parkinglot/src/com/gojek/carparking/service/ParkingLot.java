@@ -10,7 +10,7 @@ import com.gojek.carparking.storage.ParkingSpace;
 public class ParkingLot implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) throws NumberFormatException {
+	public void doParking(ParkingParameter param) throws NumberFormatException {
 		try {
 
 			Integer capacity = Integer.valueOf((String) param.getValue()[1]);

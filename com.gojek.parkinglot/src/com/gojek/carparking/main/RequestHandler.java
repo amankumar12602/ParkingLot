@@ -27,7 +27,7 @@ public class RequestHandler {
 		IParkingService service = commandMap.get(action);
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(values);
-		service.doAction(param);
+		service.doParking(param);
 	}
 
 	public static void prepareCommandMap() {

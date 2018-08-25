@@ -30,7 +30,7 @@ public class ParkingLotTest {
 		int maxSize = 6;
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(new String[] { "create_parking_lot", "6" });
-		service.doAction(param);
+		service.doParking(param);
 		List<com.gojek.carparking.dto.Car> availablity = ParkingSpace.getAvailableSlotList();
 		assertTrue(availablity.size() == maxSize);
 

@@ -33,17 +33,17 @@ public class ParkingLotByRegistrationNoTest {
 		
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(new String[] { "create_parking_lot", "6" });
-		lot.doAction(param);
+		lot.doParking(param);
 	
 		
 		param.setValue(new String[] { "park", "KA-01-HH-1234", "White" });
-		parking.doAction(param);
+		parking.doParking(param);
 
 		param.setValue(new String[] { "slot_number_for_registration_number", "KA-01-HH-3141" });
-		lotByRegNo.doAction(param);
+		lotByRegNo.doParking(param);
 
 		param.setValue(new String[] { "slot_number_for_registration_number", "KA-01-HH-1234" });
-		lotByRegNo.doAction(param);
+		lotByRegNo.doParking(param);
 
 	}
 

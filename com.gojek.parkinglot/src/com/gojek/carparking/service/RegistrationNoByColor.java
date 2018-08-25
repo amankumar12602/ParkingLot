@@ -7,7 +7,7 @@ import com.gojek.carparking.storage.ParkingSpace;
 public class RegistrationNoByColor implements IParkingService {
 
 	@Override
-	public void doAction(ParkingParameter param) {
+	public void doParking(ParkingParameter param) {
 		String color = param.getValue()[1];
 
 		ParkingSearchMap.getColorLotMap().get(color).forEach(slot -> {

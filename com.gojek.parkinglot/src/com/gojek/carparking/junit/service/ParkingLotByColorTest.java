@@ -33,13 +33,13 @@ public class ParkingLotByColorTest {
 		
 		ParkingParameter param = new ParkingParameter();
 		param.setValue(new String[] { "create_parking_lot", "6" });
-		lot.doAction(param);
+		lot.doParking(param);
 
 		param.setValue(new String[] { "park", "KA-01-HH-1234", "White" });
-		parking.doAction(param);
+		parking.doParking(param);
 
 		param.setValue(new String[] { "slot_numbers_for_cars_with_colour", "White" });
-		service.doAction(param);
+		service.doParking(param);
 	}
 
 }
