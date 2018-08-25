@@ -1,6 +1,6 @@
 package com.gojek.carparking.service;
 
-import com.gojek.carparking.vo.ParkingParameter;
+import com.gojek.carparking.config.ParkingParameter;
 
 public interface IParkingService {
 

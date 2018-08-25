@@ -2,10 +2,10 @@ package com.gojek.carparking.service;
 
 import java.util.stream.IntStream;
 
+import com.gojek.carparking.config.ParkingParameter;
 import com.gojek.carparking.dto.Car;
 import com.gojek.carparking.storage.ParkingSearchMap;
 import com.gojek.carparking.storage.ParkingSpace;
-import com.gojek.carparking.vo.ParkingParameter;
 
 public class ParkingStatus implements IParkingService {
 

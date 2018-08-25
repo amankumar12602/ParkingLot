@@ -1,4 +1,4 @@
-package com.gojek.carparking.vo;
+package com.gojek.carparking.config;
 
 public class ParkingParameter {
 

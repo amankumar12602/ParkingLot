@@ -1,8 +1,8 @@
 package com.gojek.carparking.service;
 
+import com.gojek.carparking.config.ParkingParameter;
 import com.gojek.carparking.storage.ParkingSearchMap;
 import com.gojek.carparking.storage.ParkingSpace;
-import com.gojek.carparking.vo.ParkingParameter;
 
 public class RegistrationNoByColor implements IParkingService {
 
