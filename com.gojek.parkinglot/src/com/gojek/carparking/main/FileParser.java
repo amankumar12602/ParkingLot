@@ -30,7 +30,7 @@ public class FileParser {
 	}
 
 	public static void parseTextInput(String params) {
-		//RequestHandler.handleRequest(params.split(" ")[0].toLowerCase(), params.split(" "));
+		RequestHandler.handleRequest(params.split(" ")[0].toLowerCase(), params.split(" "));
 
 	}
 

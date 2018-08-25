@@ -3,8 +3,6 @@ package com.gojek.carparking.service;
 import com.gojek.carparking.common.CommonConstant;
 import com.gojek.carparking.config.ParkingParameter;
 import com.gojek.carparking.storage.ParkingSearchMap;
-import com.gojek.carparking.storage.ParkingSearchMap;
-import com.gojek.carparking.config.ParkingParameter;
 
 public class ParkingLotByRegistrationNo implements IParkingService {
 

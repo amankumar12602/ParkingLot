@@ -12,11 +12,6 @@ import com.gojek.carparking.service.ParkingLotByRegistrationNo;
 import com.gojek.carparking.service.ParkingLot;
 import com.gojek.carparking.config.ParkingParameter;
 
-import com.gojek.carparking.config.ParkingParameter;
-import com.gojek.carparking.service.ParkACar;
-import com.gojek.carparking.service.LeaveParking;
-import com.gojek.carparking.service.ParkingLotByRegistrationNo;
-import com.gojek.carparking.service.ParkingLot;
 import com.gojek.carparking.service.IParkingService;
 import com.gojek.carparking.service.ParkingStatus;
 
