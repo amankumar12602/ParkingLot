@@ -12,7 +12,7 @@ public class CommonConstant {
 
 	public static final String ERROR_INVALID_SPACE_NO = "Invalid parking space";
 
-	public static final String PARKING_SPACE_BLOCKED = "Allocated slot number: {0} by car {1}";
+	public static final String PARKING_SPACE_BLOCKED = "Allocated slot number: {0}";
 
 	public static final String SLOT_FREE = "Slot number {0} is free";
 }
